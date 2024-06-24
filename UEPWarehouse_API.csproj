@@ -1,0 +1,69 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="wwwroot\Photos\av.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BoldReports.Net.Core" Version="5.3.13" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.13" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Photos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Photos\2-FromInquirer.net.jpg" />
+    <None Include="wwwroot\Photos\2.jpg" />
+    <None Include="wwwroot\Photos\280924938_1026015504705420_276088794471321810_n.jpg" />
+    <None Include="wwwroot\Photos\317082432_5553174318070737_7798599960738204490_n.jpg" />
+    <None Include="wwwroot\Photos\317268749_5553174628070706_3382030362354301417_n.jpg" />
+    <None Include="wwwroot\Photos\317305809_5553173814737454_7160928232356730216_n.jpg" />
+    <None Include="wwwroot\Photos\317320182_5553175548070614_5576168662435175219_n.jpg" />
+    <None Include="wwwroot\Photos\318-3180984_picture-frames-borders-and-frames-decorative-arts-molding-spooky-picture-frames-png.jpg" />
+    <None Include="wwwroot\Photos\340300420_908287920463608_6476161610116316301_n.jpg" />
+    <None Include="wwwroot\Photos\340304657_601703208288072_5064786473653808295_n.jpg" />
+    <None Include="wwwroot\Photos\340378826_222738897105397_1591443964166796495_n.jpg" />
+    <None Include="wwwroot\Photos\340397252_908953153766384_4528761685073462483_n.jpg" />
+    <None Include="wwwroot\Photos\345241841_973500077119012_7752763415358344469_n.jpg" />
+    <None Include="wwwroot\Photos\354413092_272551945327770_5218595566030638709_n.jpg" />
+    <None Include="wwwroot\Photos\354621642_272552141994417_30271287579207784_n.jpg" />
+    <None Include="wwwroot\Photos\362989169_1421619121719891_193380796876674511_n.jpg" />
+    <None Include="wwwroot\Photos\363355543_293613026519198_354154834387119685_n.jpg" />
+    <None Include="wwwroot\Photos\372143062_1757669677997349_2938804917844511037_n.jpg" />
+    <None Include="wwwroot\Photos\372158057_1009596767021440_3618810981754163075_n.jpg" />
+    <None Include="wwwroot\Photos\372259074_3549213865292699_2020242206461030217_n.jpg" />
+    <None Include="wwwroot\Photos\399147926_1025683715415118_3264404926369138650_n.jpg" />
+    <None Include="wwwroot\Photos\6f49064b92c7daf7e2096eb80c99.jpeg" />
+    <None Include="wwwroot\Photos\admin.png" />
+    <None Include="wwwroot\Photos\collection-of-brush-hand-drawn-graphic-element-set-of-brush-strokes-isolated-on-white-background-illustration-free-vector.jpg" />
+    <None Include="wwwroot\Photos\cs.png" />
+    <None Include="wwwroot\Photos\DSC_2347.NEF" />
+    <None Include="wwwroot\Photos\DSC_2404.jpg" />
+    <None Include="wwwroot\Photos\DSC_2406.NEF" />
+    <None Include="wwwroot\Photos\DSC_2407.NEF" />
+    <None Include="wwwroot\Photos\F1st.jpg" />
+    <None Include="wwwroot\Photos\GERALD.jpg" />
+    <None Include="wwwroot\Photos\gerald2 copy.jpg" />
+    <None Include="wwwroot\Photos\gerald3.jpg" />
+    <None Include="wwwroot\Photos\Human-Lit-Folio.png" />
+    <None Include="wwwroot\Photos\M4th.jpg" />
+    <None Include="wwwroot\Photos\pelepes.png" />
+    <None Include="wwwroot\Photos\Photo manipulation.jpg" />
+    <None Include="wwwroot\Photos\png-clipart-free-borders-for-publisher-border-frame.png" />
+    <None Include="wwwroot\Photos\Rem Laodeño - CoE.jpg" />
+    <None Include="wwwroot\Photos\Screenshot 2023-05-08 132432.png" />
+    <None Include="wwwroot\Photos\simpson8.jpg" />
+    <None Include="wwwroot\Photos\weareallanlantawan-bb831246-d23e-40ba-baf2-0cbf752dae37.jpg" />
+  </ItemGroup>
+
+</Project>
